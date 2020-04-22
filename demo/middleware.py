@@ -7,6 +7,7 @@ from demo import status
 
 logger = logging.getLogger(__name__)
 
+
 async def request_logging_middleware(app, handler):
     async def middleware_handler(request):
         logger.info(request)
