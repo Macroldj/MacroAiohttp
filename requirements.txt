@@ -1,0 +1,8 @@
+aiohttp
+aiohttp-utils
+asyncpg
+cchardet
+ujson
+uvloop
+schematics
+
